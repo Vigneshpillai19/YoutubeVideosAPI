@@ -54,7 +54,7 @@ class App extends React.Component {
                             </div>
                         </div>
                     </div>
-                : <div>Fetching Videos...</div>}
+                : <div>Loading...</div>}
             </div>
         )
     }
