@@ -2,6 +2,7 @@ import os
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
+from selenium.webdriver import FirefoxOptions
 
 import time
 
@@ -9,7 +10,10 @@ import time
 #os.chdir(parent_path)
 #print(os.getcwd() + "/drivers/geckodriver")
 
-browser = webdriver.Firefox(executable_path="./drivers/geckodriver", service_log_path='./geckodriver.log')
+opts = FirefoxOptions()
+opts.add_argument("--headless")
+
+browser = webdriver.Firefox(executable_path="./drivers/geckodriver", service_log_path='./geckodriver.log', options=opts)
 browser.get('http://localhost:3000')
 browser.find_element(By.NAME, "q").send_keys("Selenium", Keys.RETURN)
 
