@@ -14,3 +14,22 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1616415060350	Marionette	INFO	Listening on port 40451
 1616415060453	Marionette	WARN	TLS certificate errors will be ignored for this session
 1616415060485	Marionette	ERROR	[15] No reply from Marionette:Register
+1616415252387	Marionette	INFO	Stopped listening on port 40451
+1616415339203	geckodriver	INFO	Listening on 127.0.0.1:43275
+1616415340217	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileF28Fn3"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616415346136	Marionette	INFO	Listening on port 45371
+1616415346408	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1616415346631	Marionette	ERROR	[31] No reply from Marionette:Register
+1616415346632	Marionette	ERROR	[33] No reply from Marionette:Register
+1616415346790	Marionette	ERROR	[31] No reply from Marionette:Register
+1616415346820	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: AbortError: Actor 'ASRouter' destroyed before query 'NEWTAB_MESSAGE_REQUEST' was resolved
+1616415352211	Marionette	INFO	Stopped listening on port 45371
