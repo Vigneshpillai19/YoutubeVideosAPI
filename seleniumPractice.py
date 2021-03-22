@@ -9,7 +9,7 @@ import time
 #os.chdir(parent_path)
 #print(os.getcwd() + "/drivers/geckodriver")
 
-browser = webdriver.Firefox(executable_path="./drivers/geckodriver")
+browser = webdriver.Firefox(executable_path="./drivers/geckodriver", service_log_path='./geckodriver.log')
 browser.get('http://localhost:3000')
 browser.find_element(By.NAME, "q").send_keys("Selenium", Keys.RETURN)
 
